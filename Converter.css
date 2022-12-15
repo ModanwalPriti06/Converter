@@ -1,0 +1,62 @@
+
+
+.wrapper{
+    width: 70%;
+    margin: 100px auto;
+    box-shadow: 0px 6px 12px grey;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: rgb(240, 208, 208);
+    
+}
+.inputs
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  
+}
+/*
+#from,#to{/
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px grey;
+    border: none;0000000000000000
+}*/
+.input-field{
+    padding: 4px 8px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgb(158, 123, 190);
+    font-size: 16px;
+    width: 80%;
+    outline: none !important;
+    margin: auto;
+    border: none;
+}
+.w-100{
+    width: 100%;
+}
+
+#input-number{
+    width: 50%;
+    font-size: 18px;
+}
+button{
+    padding: 8px 14px;
+    border: 4px;
+    background-color: rgb(195, 164, 224);
+    color: rgb(248, 245, 245);
+    margin: 12px;
+    border-radius: 6px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+button:hover{
+    box-shadow: 0px 2px 4px blueviolet;
+}
+#result-box{
+    font-size: 20px;
+    margin: 12px;
+    font-weight: 600;
+}
